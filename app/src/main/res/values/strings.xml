@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Discover Berlin</string>
+
+    <!-- Attractions -->
+    <string name="tv_tower_title">Berlin Television Tower</string>
+    <string name="tv_tower_subtitle">Tickets &amp; Dates</string>
+
+    <string name="gendarmenmarkt_title">Gendarmenmarkt</string>
+    <string name="gendarmenmarkt_subtitle">Berlin&apos;s most beautiful public square</string>
+
+    <string name="brandenburg_gate_title">Brandeburg Gate</string>
+    <string name="brandenburg_gate_subtitle">Symbol of German reunification</string>
+
+    <string name="reichstag_title">Reichstag &amp; Government District</string>
+    <string name="reichstag_subtitle">Site of the German Government</string>
+
+    <string name="days_berlin_title">3 Days in Berlin</string>
+    <string name="days_berlin_subtitle">Don&apos;t miss any top sights</string>
+
+    <!-- Museums -->
+    <string name="museums_island_title">Museum Island</string>
+    <string name="museums_island_subtitle">One island with 5 museums in the heart of Berlin</string>
+
+    <string name="top_exhibitions_title">Top Exhibitions in Berlin</string>
+    <string name="top_exhibitions_subtitle">Acclaimed art from all over the world</string>
+
+    <string name="museums_tickets_title">Tickets for Museums and Exhibitions</string>
+    <string name="museums_tickets_subtitle">Which ticket is right for you?</string>
+
+    <string name="museums_children_title">Museums for children</string>
+    <string name="museums_children_subtitle">Museums that explain the world</string>
+
+    <!-- Tours -->
+    <string name="tour_bus_title">Bus Tours &amp; City Tours</string>
+    <string name="tour_bus_subtitle">Discover Berlin by bus</string>
+
+    <string name="tour_boat_title">Boat Tours &amp; Spree Cruises</string>
+    <string name="tour_boat_subtitle">Boat tours and rental</string>
+
+    <string name="tour_walking_title">Walking Tours</string>
+    <string name="tour_walking_subtitle">Guided tours</string>
+
+    <string name="tour_cycling_title">Cycling Tours in Berlin</string>
+    <string name="tour_cycling_subtitle">Tips, bike tours and hotels for cyclists</string>
+
+    <!-- Restaurants -->
+    <string name="restaurants_tips_title">Restaurant Tips Around Berlin Sights</string>
+    <string name="restaurants_tips_subtitle">Enjoy the culinary side of Berlin</string>
+
+    <string name="restaurants_events_title">Events for Foodies</string>
+    <string name="restaurants_events_subtitle">Weeks, markets &amp; festivals with great food</string>
+
+    <string name="restaurants_cuisine_title">Berlin Cuisine</string>
+    <string name="restaurants_cuisine_subtitle">Meals for real guys</string>
+
+    <string name="restaurants_groups_title">Restaurants for Groups</string>
+    <string name="restaurants_groups_subtitle">Relaxed dining with your fellow travelers</string>
+
+</resources>
