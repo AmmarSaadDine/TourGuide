@@ -6,7 +6,7 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ImageView
-        android:id="@+id/image"
+        android:id="@+id/attraction_photo_image_view"
         android:layout_width="0dp"
         android:layout_height="0dp"
         app:layout_constraintLeft_toLeftOf="parent"
@@ -17,7 +17,7 @@
         tools:src="@drawable/tv_tower" />
 
     <TextView
-        android:id="@+id/subtitle"
+        android:id="@+id/attraction_subtitle_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         style="@style/ItemSubtitle"
@@ -28,12 +28,12 @@
         tools:text="@string/tv_tower_subtitle"
         />
     <TextView
-        android:id="@+id/title"
+        android:id="@+id/attraction_title_text_view"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginLeft="@dimen/item_text_margin_left"
         style="@style/ItemTitle"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/subtitle"
+        app:layout_constraintBottom_toTopOf="@id/attraction_subtitle_text_view"
         tools:text="@string/tv_tower_title" />
 </android.support.constraint.ConstraintLayout>

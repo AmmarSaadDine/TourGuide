@@ -39,19 +39,19 @@ public class DiscoverAdapter extends FragmentPagerAdapter {
         Bundle bundle = new Bundle();
         switch (position) {
             case 0:
-                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getAttractions());
+                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getAttractionsList());
                 fragment.setArguments(bundle);
                 return fragment;
             case 1:
-                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getMuseums());
+                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getMuseumsList());
                 fragment.setArguments(bundle);
                 return fragment;
             case 2:
-                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getTours());
+                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getToursList());
                 fragment.setArguments(bundle);
                 return fragment;
             case 3:
-                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getRestaurants());
+                bundle.putParcelableArrayList(BaseAttractionsFragment.KEY_ATTRACTIONS, DataMock.getInstance().getRestaurantsList());
                 fragment.setArguments(bundle);
                 return fragment;
             default:

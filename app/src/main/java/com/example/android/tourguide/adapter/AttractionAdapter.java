@@ -34,16 +34,16 @@ public class AttractionAdapter extends ArrayAdapter<AttractionEntry> {
         AttractionEntry attractionEntry = getItem(position);
 
         // setup image view
-        ImageView imageView = listItemView.findViewById(R.id.image);
-        imageView.setImageResource(attractionEntry.getImageResourceID());
+        ImageView attractionPhotoImageView = listItemView.findViewById(R.id.attraction_photo_image_view);
+        attractionPhotoImageView.setImageResource(attractionEntry.getImageResourceID());
 
         // setup title text view
-        TextView titleView = listItemView.findViewById(R.id.title);
-        titleView.setText(attractionEntry.getTitle());
+        TextView attractionTitleTextView = listItemView.findViewById(R.id.attraction_title_text_view);
+        attractionTitleTextView .setText(attractionEntry.getTitle());
 
         // setup subtitle text view
-        TextView subtitleView = listItemView.findViewById(R.id.subtitle);
-        subtitleView.setText(attractionEntry.getSubtitle());
+        TextView attractionSubtitleTextView = listItemView.findViewById(R.id.attraction_subtitle_text_view);
+        attractionSubtitleTextView .setText(attractionEntry.getSubtitle());
 
         return listItemView;
     }
