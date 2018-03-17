@@ -1,12 +1,18 @@
 <resources>
     <string name="app_name">Discover Berlin</string>
 
+    <!-- Fragments titles -->
+    <string name="fragment_title_attractions">Attractions</string>
+    <string name="fragment_title_museums">Museums</string>
+    <string name="fragment_title_tours">Tours</string>
+    <string name="fragment_title_restaurants">Restaurants</string>
+
     <!-- Attractions -->
     <string name="tv_tower_title">Berlin Television Tower</string>
     <string name="tv_tower_subtitle">Tickets &amp; Dates</string>
 
     <string name="gendarmenmarkt_title">Gendarmenmarkt</string>
-    <string name="gendarmenmarkt_subtitle">Berlin&apos;s most beautiful public square</string>
+    <string name="gendarmenmarkt_subtitle">Berlin\'s most beautiful public square</string>
 
     <string name="brandenburg_gate_title">Brandeburg Gate</string>
     <string name="brandenburg_gate_subtitle">Symbol of German reunification</string>
@@ -15,7 +21,7 @@
     <string name="reichstag_subtitle">Site of the German Government</string>
 
     <string name="days_berlin_title">3 Days in Berlin</string>
-    <string name="days_berlin_subtitle">Don&apos;t miss any top sights</string>
+    <string name="days_berlin_subtitle">Don\'t miss any top sights</string>
 
     <!-- Museums -->
     <string name="museums_island_title">Museum Island</string>

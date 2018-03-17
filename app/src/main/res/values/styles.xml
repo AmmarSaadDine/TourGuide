@@ -6,6 +6,38 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="actionBarStyle">@style/AppBarStyle</item>
     </style>
 
+    <style name="AppBarStyle" parent="Widget.AppCompat.Light.ActionBar.Solid.Inverse">
+        <!-- Remove the shadow below the app bar -->
+        <item name="elevation">0dp</item>
+    </style>
+
+    <!-- Style for a tab that displays a category name -->
+    <style name="DiscoverTab" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorAccent</item>
+        <item name="tabSelectedTextColor">@color/colorAccent</item>
+        <item name="tabTextAppearance">@style/DiscoverTabTextAppearance</item>
+    </style>
+
+    <!-- Text appearance style for a category tab -->
+    <style name="DiscoverTabTextAppearance" parent="TextAppearance.Design.Tab">
+        <item name="android:textColor">@color/textBackground</item>
+    </style>
+
+    <!-- List item title text -->
+    <style name="ItemTitle">
+        <item name="android:textSize">@dimen/list_item_title_size</item>
+        <item name="android:textColor">@color/itemTitleText</item>
+        <item name="android:background">@color/textBackground</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
+
+    <style name="ItemSubtitle">
+        <item name="android:textSize">@dimen/list_item_subtitle_size</item>
+        <item name="android:textColor">@color/itemSubtitleText</item>
+        <item name="android:background">@color/textBackground</item>
+        <item name="android:padding">@dimen/text_padding</item>
+    </style>
 </resources>
